@@ -1,0 +1,13 @@
+ # Google
+  GOOGLE_SERVICE_ACC_KEY:
+    type: service_account
+    project_id: "your_project"
+    private_key_id: "private_key_id"
+    private_key: "-----BEGIN PRIVATE KEY-----\n-----END PRIVATE KEY-----\n"
+    client_email: "sa_name@your_project.iam.gserviceaccount.com" #service account
+    auth_uri: "https://accounts.google.com/o/oauth2/auth"
+    token_uri: "https://oauth2.googleapis.com/token"
+    auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs"
+    client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/mage-vm%40igneous-fort-398700.iam.gserviceaccount.com"
+  GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/Users/sai-nagula/Downloads/igneous-fort-398700-c274324b2661.json"
+  GOOGLE_LOCATION: US # Optional
